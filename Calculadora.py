@@ -12,12 +12,8 @@ janela =Tk()
 janela.title("Calculadora")
 janela.geometry("230x301")
 janela.config(bg=cor1)
-#width = largura
-#height = Conprimento
-#bg = para cor do botão
-#fj = para cor do que esta dentro de botão
-#font = tipo de letra que esta no espaço
-#relief=RAISED = faz o botão ser sencivel ao mauose ao passar em cima
+
+
 frame_tela = Frame(janela, width=235, height=50,bg=cor1,)
 frame_tela.grid(ipadx=0, column=0)
 
@@ -26,7 +22,7 @@ frame_corpo.grid(ipadx=1, column=0)
 
 
 todos_valores = ""
-#Função para calculadora rodar
+
 
 
 def entrar_valores(event): 
